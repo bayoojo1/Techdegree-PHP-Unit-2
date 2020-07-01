@@ -1,0 +1,14 @@
+Instruction
+Continued Practice: PHP Quiz App
+One of the best ways to learn is by doing, and figuring it out as you go. You just build a Quiz app, but what could you do to make it even better? The following are meant to be SUGGESTIONS of things you might try. You DO NOT have do attempt everything on this list. Choose what sounds interesting to you, or make up your own. The objective here is just to practice, so have fun with it.
+
+Change arithmetic operator. (Instead of addition, change to subtraction or multiplication)
+Combine different types of questions. (Some addition, some subtraction etc.)
+Increase the complexity of the equations
+Use radio buttons for answers instead of buttons
+Allow a user to type an answer instead of multiple choice
+Allow a user to create their own quiz. (Choose number of questions, complexity, operators, etc.)
+Allow a user to export their answers
+Allow a user to practice indefinitely and dynamically creating an question each time.
+Show score at any time.
+Export or continue from score.

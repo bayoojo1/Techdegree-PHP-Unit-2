@@ -15,7 +15,7 @@ if(!isset($_SESSION['used_indexes'])) {
 $toast = null;
 // Increment the score when user answer correctly and display messages for both correct and wrong answer
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-    if($_POST['answer'] == $questions[$_POST['id']]['correctAnswer']) {
+    if($_POST['answer'] == $questions[$_POST['index']]['correctAnswer']) {
         $toast = '<span style="color:forestgreen;">'."Weldone! Your answer is correct.".'</span>';
         $_SESSION['totalCorrect']++;
     } else {

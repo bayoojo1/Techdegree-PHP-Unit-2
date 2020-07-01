@@ -25,7 +25,7 @@ include('inc/quiz.php');
      
             <p class="quiz">What is <?php echo $question['leftAdder']; ?> + <?php echo $question['rightAdder']; ?>?</p>
             <form action="index.php" method="post">
-                <input type="hidden" name="id" value="<?php echo $index; ?>" />
+                <input type="hidden" name="index" value="<?php echo $index; ?>" />
                 <input type="submit" class="btn" name="answer" value="<?php echo $answers[0]; ?>" />
                 <input type="submit" class="btn" name="answer" value="<?php echo $answers[1]; ?>" />
                 <input type="submit" class="btn" name="answer" value="<?php echo $answers[2]; ?>" />
